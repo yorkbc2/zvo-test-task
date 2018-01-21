@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test Task for ZVO agency</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<nav id="nav">
+			<div class="container container-flex container-adaptive">
+				<button id="nav-list--opener" class="nav-button--bars">
+					<i class="bars"></i>
+				</button>
+				<h2 class="nav-logo">
+					Logo
+				</h2>
+				<ul id="nav-list" class='nav-list'>
+					<li class="nav-item--dropdown">
+						<a href="#about">
+							About
+						</a>
+						<div class="nav-arrow--container">
+							<span class="nav-item--arrow nav-opener"
+							data-open="#about-dropitem"></span>
+						</div>
+						<ul class="nav-item--dropitem" id="about-dropitem">
+							<li>
+								<a href="#history">
+									History
+								</a>
+							</li>
+							<li>
+								<a href="#command">
+									Command
+								</a>
+							</li>
+							<li>
+								<a href="#dreams">
+									Dreams
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-item--dropdown">
+						<a href="#portfolio">Portfolio</a>
+						<div class="nav-arrow--container">
+							<span class="nav-item--arrow nav-opener"
+								data-open="#portfolio-dropitem"></span>
+						</div>
+						<ul id="portfolio-dropitem" class="nav-item--dropitem">
+							<li>
+								<a href="#sites">Sites</a>
+							</li>
+							<li>
+								<a href="#mobile-apps">Mobile Apps</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-item nav-item--underlined"><a href="#services">Services</a></li>
+					<li><a href="#contacts">Contacts</a></li>
+
+					<button class="nav-list--close nav-button--cross" id="nav-list-closer"></button>
+				</ul>		
+				<div class="nav-button--container">
+					<button class="nav-button">
+						Callback
+					</button>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<h1 class="header header-big">
+				Our Cards
+			</h1>
+			<div class="cards-grid">
+				<div class="card"></div>
+				<div class="card"></div>
+				<div class="card"></div>
+				<div class="card"></div>
+				<div class="card"></div>
+				<div class="card"></div>
+				<div class="card"></div>
+				<div class="card"></div>
+			</div>
+		</div>
+	</div>
+	<script src="src/menu.js"></script>
+</body>
+</html>
